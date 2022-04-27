@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <tag>
+        <well>
+            <child></child>
+        </well>
+        <noWell>
+            <newChild> nuovo elemento figlio </newChild>
+            <noWellNested>
+            </noWellNested>
+        </noWell>
+        <newSibling> nuovo elemento fratello </newSibling>
+            
+    </tag>
+</doc>
+
+<!-- Errore: The element type "noWellNested" must be terminated by the matching end-tag "</noWellNested>"
+Significa che l'elemento <noWellNested> non è correttamente annidato, infatti un elemento figlio deve essere chiuso prima della chiusura dell'elemento padre.
+La correzione che ho fatto è stata invertire la chiusura </noWell> con la chiusura </noWellNested> -->
+
+<!-- Esercizio: inserire un elemento figlio e un elemento fratello.
+Ho inserito <newChild> come figlio di <noWell>
+e <newSibling> come fratello di <noWell> e <well> -->
+
