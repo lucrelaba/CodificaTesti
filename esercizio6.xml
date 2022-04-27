@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "./esercizio5_dtd.dtd">
+
+<TEI>
+    <header type="intestazione">
+        questa e' una nota
+    </header>
+
+    <facsimile source="testo1" ref="testo1 testo2"> 
+        testo 
+    </facsimile>
+
+    <testo id="testo1" type="prova molto bella"> 
+        testo di prova 
+    </testo>
+
+    <testo id="testo2">
+        <seg></seg>
+    </testo>
+
+</TEI>
